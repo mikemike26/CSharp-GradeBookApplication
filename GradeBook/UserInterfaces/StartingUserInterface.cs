@@ -64,7 +64,6 @@ namespace GradeBook.UserInterfaces
               Console.WriteLine("{0} is not a supported type gradebook, please try again.", type);
               return;
             }
-            var gradeBook = BaseGradeBook.Load(name);
 
             if (gradeBook == null)
                 return;
